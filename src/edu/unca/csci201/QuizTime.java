@@ -6,16 +6,16 @@ public class QuizTime {
 
 		Quiz quiz = new Quiz();
 		
-		Question a = new  MultipleChoiceQuestion("Answer is 1", 1);
-		Question b = new  MultipleChoiceQuestion("Answer is 1", 1);
-		Question c = new  MultipleChoiceQuestion("Answer is 1", 1);
-		Question d = new  MultipleChoiceQuestion("Answer is 1", 1);
-		Question e = new  MultipleChoiceQuestion("Answer is 1", 1);
-		Question f = new  MultipleChoiceQuestion("Answer is 1", 1);
-		Question g = new  MultipleChoiceQuestion("Answer is 1", 1);
-		Question h = new  MultipleChoiceQuestion("Answer is 1", 1);
-		Question i = new  MultipleChoiceQuestion("Answer is 1", 1);
-		Question j = new  MultipleChoiceQuestion("Answer is 1", 1);
+		Question a = new  MultipleChoiceQuestion("Answer is 1.\r\n1: one\r\n2: two\r\n3: three\r\n4: four", 1);
+		Question b = new  MultipleChoiceQuestion("Answer is 1.\r\n1: one\r\n2: two\r\n3: three\r\n4: four", 1);
+		Question c = new  MultipleChoiceQuestion("Answer is 1.\r\n1: one\r\n2: two\r\n3: three\r\n4: four", 1);
+		Question d = new  MultipleChoiceQuestion("Answer is 1.\r\n1: one\r\n2: two\r\n3: three\r\n4: four", 1);
+		Question e = new  MultipleChoiceQuestion("Answer is 1.\r\n1: one\r\n2: two\r\n3: three\r\n4: four", 1);
+		Question f = new  MultipleChoiceQuestion("Answer is 1.\r\n1: one\r\n2: two\r\n3: three\r\n4: four", 1);
+		Question g = new  MultipleChoiceQuestion("Answer is 1.\r\n1: one\r\n2: two\r\n3: three\r\n4: four", 1);
+		Question h = new  MultipleChoiceQuestion("Answer is 1.\r\n1: one\r\n2: two\r\n3: three\r\n4: four", 1);
+		Question i = new  MultipleChoiceQuestion("Answer is 1.\r\n1: one\r\n2: two\r\n3: three\r\n4: four", 1);
+		Question j = new  MultipleChoiceQuestion("Answer is 1.\r\n1: one\r\n2: two\r\n3: three\r\n4: four", 1);
 		
 		Question k = new TrueFalseQuestion("Answer is true", "true");
 		Question l = new TrueFalseQuestion("Answer is true", "true");
@@ -28,11 +28,11 @@ public class QuizTime {
 		Question s = new TrueFalseQuestion("Answer is true", "true");
 		Question t = new TrueFalseQuestion("Answer is true", "true");
 		
-		Question u = new ShortAnswerQuestion("Answer is one", "one");
-		Question v = new ShortAnswerQuestion("Answer is one", "one");
-		Question w = new ShortAnswerQuestion("Answer is one", "one");
-		Question x = new ShortAnswerQuestion("Answer is one", "one");
-		Question y = new ShortAnswerQuestion("Answer is one", "one");
+		Question u = new FillTheBlank("Answer is ___. \r\none, one, one, one", "one");
+		Question v = new FillTheBlank("Answer is ___. \r\none, one, one, one", "one");
+		Question w = new FillTheBlank("Answer is ___. \r\none, one, one, one", "one");
+		Question x = new FillTheBlank("Answer is ___. \r\none, one, one, one", "one");
+		Question y = new FillTheBlank("Answer is ___. \r\none, one, one, one", "one");
 
 		quiz.addQuestion(a);
 		quiz.addQuestion(b);
